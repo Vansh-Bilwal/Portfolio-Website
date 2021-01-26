@@ -1,0 +1,60 @@
+/* Navbar */
+#navbar .name{
+    text-align: center;
+    padding:0rem 0rem
+    margin:0rem;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/* Showcase */
+.content{
+    top:30px;
+}
+#sec-1 p{
+    max-width: 450px;
+    margin:auto;
+}
+/* Hobbies */
+#hobbies #hob .up,.down{
+    padding:0.5rem;
+    display: block;
+}
+.all-hobbies div{
+    width:50%;
+}
+#hobbies .hobby-2,.hobby-3,.hobby-6{
+    border-bottom: white solid 2px;
+    color: white;
+    background-color: #34b7a8a4;
+}
+#hobbies .hobby-5{
+    color: black;
+    background-color: white;
+}
+#skills .all-skills div{
+    width:45%;
+}
+#skills{
+    height:1875px;
+}
+/* #contact-1 .btn{
+    margin-left: 150px;
+} */
+#contact-1 .contact-form input,
+  #contact-1 .contact-form textarea {
+     
+    width: 50vw;
+     padding: 0.75rem; 
+  }
+  #contact-1 .contact-form .form-group {
+    margin: 1rem;
+     padding-left: 100px; 
+  }
+  #contact-1 .btn{
+    margin-left: 115px;
+}

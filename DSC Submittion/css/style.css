@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0 ;
+}
+body{
+    font-family: "Sofia", sans-serif;
+    font-size: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin:0.75rem 0rem;
+}
+/* Repeating Classes */
+.text-primary{
+    color:#34b7a7
+}
+ /* .current {
+   color: #000!important;
+   text-decoration: wavy underline #34b7a7 2px ;
+   
+} */
+.btn{
+    text-align: center;
+    margin: auto;
+   
+}
+/* .container-l{
+    max-width: 1200px;
+    margin: auto;
+} */
+.container{
+    max-width: 700px;
+    margin: auto;
+}
+/* Nav Bar */
+#navbar{
+    font-family: "Sofia", sans-serif;
+    display:flex;
+    position:sticky;
+    top:0;
+    background-color: #dbd8d8e7;
+    color: #222222;
+    justify-content:space-between ;
+    z-index: 1;
+    padding:1.1rem;
+}
+.name{
+    text-shadow: 1px 1px 1px black;
+}
+.name a{
+    color:#111;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+#navbar ul li a{
+    /* transition: all 0.4s ease-in; */
+    color: #333333aa;
+    padding: 1.5rem 0.25rem;
+    margin: 0 0.5rem;
+}
+#navbar ul li a:hover{
+    /* background-color: #34b7a7; */
+    color: #111111;
+    text-decoration: wavy underline #34b7a7 2px;
+}
+/* Sec-1 */
+ #sec-1{ 
+    
+   
+    background:  #333 url('../Images/pexels-hitesh-choudhary-340152.jpg') no-repeat center center/cover;
+    
+    height: 91vh;
+    
+}
+.content{
+    
+     height: 100%;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     
+     justify-content: center;
+     /* Overlay */
+     position: absolute;
+     top:0;
+     left:0;
+     right:0;
+     bottom:0;
+     background-color: rgba(0,0,0,0.6);
+}
+#sec-1 p{
+    display: flex;
+    margin-top: 0px;
+    padding-bottom:100px;
+    color: white;
+    max-width: 600px;
+    margin:auto;
+    text-align: justify;
+   
+} 
+
+   #sec-1 .content img{
+    max-width: 700px;
+    margin: auto;
+    margin-top: 200px;
+    margin bottom: 0px;
+    width: 220px;
+    height: 220px;
+    
+}
+
+/*Hobbies*/
+  #hobbies {
+      
+    font-family: 'Roboto', sans-serif;
+   max-width: 1200px;
+   margin: auto;
+   text-align: center;
+} 
+
+#hobbies h1{
+    padding: 40px;
+    font-size: 2.2rem;
+}
+
+.all-hobbies{
+    font-family: 'Roboto', sans-serif;;
+     display: flex;
+    flex-wrap: wrap;
+    text-align: justify; 
+    
+ }
+ .all-hobbies h3{
+     font-size: 1.7rem;
+     text-align: center;
+ }
+ .all-hobbies div{
+     padding: 30px;
+     width: 33.3%;
+     align-content: space-between;
+ }
+ #hobbies .hobby-2,.hobby-5{
+     border-bottom: white solid 2px;
+     color: white;
+     background-color: #34b7a8a4;
+ }
+ #hobbies #hob i{
+     background: #93cb52;
+     padding:0.85rem;
+     border-radius: 50%;
+     
+ }
+ /* Skills */
+#skills{
+    
+
+    font-family: "Sofia", sans-serif;
+   height: 1300px;
+    font-size: 2rem;
+    padding-top: 60px;
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+}
+#skills h1{
+    border: #34b7a7 solid 2px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    
+}
+#skills .all-skills{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+    flex:1;
+
+}
+#skills .all-skills div{
+   
+    font-size: 2rem;
+    width: 31%;
+   position:relative;
+    flex-wrap: wrap;
+    font-size: 2rem;
+   
+    margin-bottom: 80px;
+    
+}
+#skills .all-skills p {
+    height:400px;
+    align-content: space-between;
+}
+#skills .all-skills #p-1 p{
+    background: #333 url('../Images/Teaching.jpg') no-repeat center center/cover;
+    
+    top:0;
+    bottom:0;
+    background-color: rgba(0,0,0,1) ;
+}
+
+#skills .all-skills #p-2 p{
+    background:url('../Images/programmer-3606210_1280.png') center center/cover;
+}
+#skills .all-skills #p-3 p{
+  
+    background:url('../Images/game-controller.png') center center/cover;
+}
+#skills .all-skills #p-4 p{
+    background: url('../Images/basketball.jpg') center center/cover;
+}
+#skills .all-skills #p-5 p{
+    background: url('../Images/cricket.png');
+    height: 350px;
+}
+#skills .all-skills #p-6 p{
+    background: url('../Images/photography.jpeg') center center/cover;
+}
+#skills .all-skills div p{
+    color: red;
+    
+}
+#skills .all-skills #p-6 p{
+    height:350px;
+}
+
+/* Contact */
+#contact{
+    
+    background-color: #93cb52;
+}
+#contact-1{
+     padding: 30px 40px 40px 40px; 
+   
+  max-width:1000px;
+    margin: auto; 
+    display: flex;
+   
+    
+  }
+  .c-head ,.social{
+      text-align: center;
+  }
+  #contact-1 p{
+      padding: 20px 0px;
+      text-align: center;
+  }
+  #contact-1 .contact-form {
+    flex:1;
+    justify-content: center;
+  }
+  
+  #contact-1 .contact-form .form-group {
+    margin: 1rem;
+     padding-left: 200px; 
+  }
+  
+  #contact-1 .contact-form label {
+     display: block; 
+  }
+  
+  #contact-1 .contact-form input,
+  #contact-1 .contact-form textarea {
+     
+    width: 39vw;
+     padding: 0.75rem; 
+  }
+  #contact-1 .contact-form textarea{
+      padding:2rem 0.5rem;
+  }
+  #contact-1 .btn{
+      margin-left: 215px;
+  }
+  .social {
+      padding:20px 0px;
+  }
+  .social #linked a{
+      color:blue;
+  }
+  .social #twitter a{
+      color: rgb(9, 111, 245);
+  }
+  .social #facebook a{
+      color:rgb(56, 56, 250);
+  }
+
+  /* footer */
+  #main-footer{
+    text-align:center;
+    padding: 1.5rem 0;
+    background: #333;
+  color: #fff;
+  }
